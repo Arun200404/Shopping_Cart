@@ -24,3 +24,4 @@ A simple, interactive Shopping Cart web application built with HTML, CSS, and Va
 
 ---
 
+<h5>vist live site : https://arun200404.github.io/Shopping_Cart/p2_1</h5>
