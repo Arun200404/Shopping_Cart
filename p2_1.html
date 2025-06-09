@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <title>shopping cart</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body id="body">
+    <div class="container">
+        <header>
+            <img
+                src="https://img.freepik.com/free-vector/shopping-cart-realistic_1284-6011.jpg?size=338&ext=jpg&ga=GA1.1.2008272138.1721088000&semt=ais_user">
+            <h1>Shopping cart</h1>
+        </header>
+        <form id="item-form">
+            <div class="form-control">
+                <input type="text" class="form-input" id="item-input" name="item" placeholder="Enter Item">
+            </div>
+            <div class="form-control">
+                <button type="submit" class="btn">
+                    <i class="fa-solid fa-plus"> Add Item</i>
+                </button>
+            </div>
+            <div>
+                <input type="text" class="form-input-filter" id="filter" placeholder="Filter Items">
+            </div>
+            <ul id="item-list" class="items">
+                <li>
+                    Apples
+                    <button class="remove-item">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                </li>
+                <li>
+                    Oranges
+                    <button class="remove-item btn-link text-red">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                </li>
+                <li>
+                    Grapes
+                    <button class="remove-item btn-link text-red">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                </li>
+                <li>
+                    Milk
+                    <button class="remove-item btn-link text-red">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                </li>
+            </ul>
+
+            <button id="clear" class="btn-clear">Clear All</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
